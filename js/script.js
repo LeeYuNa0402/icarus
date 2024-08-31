@@ -31,7 +31,7 @@ $(document).ready(function () {
                 lnbLi(i);
                 break;
   
-            case 2 ://  �뱀뀡 2 �꾩튂
+            case 2 :
                 lnbLi(i);
                 break;
   
@@ -141,7 +141,7 @@ window.setNav = function() {
         var currentSlide = slick.slickCurrentSlide() + 1 ;
         // console.log(currentSlide);
     
-        $('#sec3').css({'background' : 'url("../images/sec3/bg'+ currentSlide + '.jpg") no-repeat center/cover'});
+        $('#sec3').css({'background' : 'url("./images/sec3/bg'+ currentSlide + '.jpg") no-repeat center/cover'});
     });
 
 // sec4 팝업창
