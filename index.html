@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>모든 이야기의 종착지,신대륙마그마포라</title>
+   <link rel="shortcut icon" href="./images/common/ica_favicon.ico" type="image/x-icon">
+
+   <script src="//file.valofe.com/Valofe_file/web/vfun/js/jquery-3.6.4.min.js"></script>
+
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <link rel="stylesheet" href="./css/reset.css">
+   <link rel="stylesheet" href="./css/style.css">
+
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+   <script src="./js/script.js"></script>
+</head>
+<body>
+
+   <header id="header">
+      <img class="logo" src="./images/common/logo-min.png" alt="마그마포라">
+      <div class="close-btn" onclick="fnToggleNav();"></div>
+
+      <div class="today-show">
+         <a class="home" href="javascript:void(0);"></a>
+         <a class="dont-today" href="javascript:void(0);">오늘 하루 그만 보기 <span></span></a>
+      </div>
+
+      <div class="lnb">
+         <h1><img src="./images/main/nav-tit-min.png" alt="마그마포라"></h1>
+         <ul>
+            <li class="event0 on"><a href="javascript:void(0)" onclick="fnGotoSec('#main')">신대륙 마그마포라</a></li>
+            <li class="event1"><a href="javascript:void(0)" onclick="fnGotoSec('#sec1')">신규 던전 폐쇄된 광산</a></li>
+            <li class="event2" ><a href="javascript:void(0)" onclick="fnGotoSec('#sec2')">신규 장비 벨제로스</a></li>
+            <li class="event3"><a href="javascript:void(0)" onclick="fnGotoSec('#sec3')">미리보는 마그마포라</a></li>
+            <li class="event4"><a href="javascript:void(0)" onclick="fnGotoSec('#sec4')">마그마포라의 신규 펠로우</a></li>
+         </ul>
+      </div>
+   </header>
+   
+   <div class="wrap">
+      <section id="main">
+         <canvas id="canvas"></canvas>
+         <div class="content" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1300" data-aos-anchor="#main">
+            <div class="tit">
+               <span><img src="./images/main/tit1-min.png" alt="모든 이야기의 종착지"></span>
+               <h2><img src="./images/main/tit2-min.png" alt="마그마포라"></h2>
+               <h1 data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1400" data-aos-anchor="#main"><img src="./images/main/tit3-min.png" alt="마그마포라"></h1>
+               <p><img src="./images/main/tit4-min.png" alt="불의 신 네르헤스의 분노로 뜨거워진 마그마포라의 비밀을 밝혀내고 사라진 공주와 사란트의 단서를 찾아라"></p>
+            </div>
+
+            <div class="date"><img src="./images/main/date-min.png" alt="2023.07.26 update"></div>
+         </div>
+
+         <div class="scroll" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1300" data-aos-anchor="#main">SCROLL DOWN</div>
+      </section>
+
+      <section id="sec1">
+         <img class="cha left"  data-aos="fade-left" data-aos-delay="400" data-aos-duration="1200" data-aos-anchor="#sec1" src="./images/sec1/cha1-min.png" alt="캐릭터"/>
+         <img class="cha right"  data-aos="fade-right" data-aos-delay="400" data-aos-duration="1200" data-aos-anchor="#sec1" src="./images/sec1/cha2-min.png" alt="캐릭터"/>
+
+         <div class="row-w">
+            <div class="tit">
+               <h2 data-aos="flip-up" data-aos-delay="200" data-aos-duration="800" data-aos-anchor="#sec1"><img src="./images/sec1/sec1-tit1-min.png" alt="신규던전"></h2>
+               <h1 data-aos="zoom-in" data-aos-delay="400" data-aos-duration="800" data-aos-anchor="#sec1"><img src="./images/sec1/sec1-tit2-min.png" alt="폐쇄된 광산"></h1>
+               <p data-aos="fade-left" data-aos-delay="600" data-aos-duration="800" data-aos-anchor="#sec1">광산을 점거하고 있는 광신도들과 돌아온 그녀와의 달콤한 전투!</p>
+            </div>
+
+            <div class="video-wrap" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000" data-aos-anchor="#sec1">
+                  <img src="./images/sec1/video-cover-min.png" alt="동영상 재생">
+               <a class="play-button" href="javascript:void(0)" data-video-id="ZJSX5Z_VZIg"></a>
+            </div>
+         </div>
+      </section>
+
+      <section id="sec2">
+
+         <img class="cha left" data-aos="fade-left" data-aos-delay="400" data-aos-duration="1200" data-aos-anchor="#sec2" src="./images/sec2/cha1-min.png" alt="캐릭터"/>
+         <img class="cha right" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1200" data-aos-anchor="#sec2" src="./images/sec2/cha2-min.png" alt="캐릭터"/>
+
+         <div class="row-w2">
+            <div class="tit">
+               <h2 data-aos="flip-up" data-aos-delay="200" data-aos-duration="800" data-aos-anchor="#sec2"><img src="./images/sec2/tit1-min.png" alt="신규 장비"></h2>
+               <h1 data-aos="zoom-in" data-aos-delay="400" data-aos-duration="800" data-aos-anchor="#sec2"><img src="./images/sec2/tit2-min.png" alt="벨제로스"></h1>
+               <p data-aos="fade-left" data-aos-delay="600" data-aos-duration="800" data-aos-anchor="#sec2">신화를 뛰어 넘은 주신 장비 '벨제로스'의 등장!</p>
+            </div>
+
+            <div class="video-wrap" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000" data-aos-anchor="#sec2">
+                  <img src="./images/sec2/video-cover-min.png" alt="동영상 재생">
+               <a class="play-button" href="javascript:void(0)" data-video-id="Z3XSXeD7SEo"></a>
+            </div>
+
+            <div class="velzero-tab" data-aos="fade-up" data-aos-delay="1200" data-aos-duration="1000" data-aos-anchor="#sec2">
+               <h3><img src="./images/sec2/tab-tit-min.png" alt="벨제로스"></h3>
+
+               <div class="tab-cont">
+                  <div class="exp _01">
+                     <img class="vel-cha" src="./images/sec2/tab5-cha1-min.png" alt="레인저(남)">
+                     <img class="vel-cha" src="./images/sec2/tab5-cha2-min.png" alt="레인저(여)">
+                  </div>
+
+                  <div class="exp _02">
+                     <img class="vel-cha" src="./images/sec2/tab2-cha1-min.png" alt="가디언(남)">
+                     <img class="vel-cha" src="./images/sec2/tab2-cha2-min.png" alt="가디언(여)">
+                  </div>
+
+                  <div class="exp _03">
+                     <img class="vel-cha" src="./images/sec2/tab3-cha1-min.png" alt="어쌔신(남)">
+                     <img class="vel-cha" src="./images/sec2/tab3-cha2-min.png" alt="어쌔신(여)">
+                  </div>
+
+                  <div class="exp _04">
+                     <img class="vel-cha" src="./images/sec2/tab4-cha1-min.png" alt="프리스트(남)">
+                     <img class="vel-cha" src="./images/sec2/tab4-cha2-min.png" alt="프리스트(여)">
+                  </div>
+
+                  <div class="exp _05">
+                     <img class="vel-cha" src="./images/sec2/tab6-cha1-min.png" alt="위자드(남)">
+                     <img class="vel-cha" src="./images/sec2/tab6-cha2-min.png" alt="위자드(여)">
+                  </div>
+
+                  <div class="exp _06">
+                     <img class="vel-cha" src="./images/sec2/tab1-cha1-min.png" alt="레인저(남)">
+                     <img class="vel-cha" src="./images/sec2/tab1-cha2-min.png" alt="레인저(여)">
+                  </div>
+
+                  <div class="exp _07">
+                     <img class="vel-cha" src="./images/sec2/tab7-cha1-min.png" alt="아이들">
+                  </div>
+
+                  <div class="exp _08">
+                     <img class="vel-cha" src="./images/sec2/tab8-cha1-min.png" alt="매지션">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section id="sec3">
+         <div class="row-w">
+            <div class="tit">
+               <h2 data-aos="flip-up" data-aos-delay="200" data-aos-duration="800" data-aos-anchor="#sec3"><img src="./images/sec3/tit1-min.png" alt="미리보는"></h2>
+               <h1 data-aos="zoom-in" data-aos-delay="400" data-aos-duration="800" data-aos-anchor="#sec3"><img src="./images/sec3/tit2-min.png" alt="마그마포라"></h1>
+            </div>
+
+            <div class="video-slide" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000" data-aos-anchor="#sec3">
+               <div class="cont">
+                  <div class="video-wrap">
+                     <img src="./images/sec3/video-cover1-min.png" alt="동영상 재생">
+                     <a class="play-button" href="javascript:void(0)" data-video-id="ZJSX5Z_VZIg"></a>
+                  </div>
+
+                  <div class="cont-tit">
+                     <h1 class="magma-tit1"><img src="./images/sec3/menu1-tit-on.png" alt="마그마포라"></h1>
+                     <p>용암이 흐르는 땅 마그마포라에서의 마지막 여정 그 첫번째 이야기</p>
+                  </div>
+               </div>
+
+               <div class="cont">
+                  <div class="video-wrap">
+                     <img src="./images/sec3/video-cover2-min.png" alt="동영상 재생">
+                     <a class="play-button" href="javascript:void(0)" data-video-id="Z3XSXeD7SEo"></a>
+                  </div>
+
+                  <div class="cont-tit">
+                     <h1 class="magma-tit2"><img src="./images/sec3/menu2-tit-on.png" alt="붉은 용광로 마을"></h1>
+                     <p>대전쟁 시대 이후로 불의 신 네르헤스의 축복을 받은 크로쿤 장인들이 자리를 잡아 생겨난 붉은 용광로 마을.</p>
+                  </div>
+               </div>
+
+               <div class="cont">
+                  <div class="video-wrap">
+                     <img src="./images/sec3/video-cover3-min.png" alt="동영상 재생">
+                     <a class="play-button" href="javascript:void(0)" data-video-id="Z3XSXeD7SEo"></a>
+                  </div>
+
+                  <div class="cont-tit">
+                     <h1 class="magma-tit3"><img src="./images/sec3/menu3-tit-on.png" alt="폐쇄된 광산으로 가는길"></h1>
+                     <p>마을 좌측에 위치한 광산으로 가는 길. <br> 광산은 현재 모종의 이후로 폐쇄 되었지만, 여전히 그곳에서 마튜드와 마티틀의 싸움은 계속 되고 있다.</p>
+                  </div>
+               </div>
+
+               <div class="cont">
+                  <div class="video-wrap">
+                     <img src="./images/sec3/video-cover4-min.png" alt="동영상 재생">
+                     <a class="play-button" href="javascript:void(0)" data-video-id="Z3XSXeD7SEo"></a>
+                  </div>
+
+                  <div class="cont-tit">
+                     <h1 class="magma-tit4"><img src="./images/sec3/menu4-tit-on.png" alt="붉은숲"></h1>
+                     <p>불의 신 네르헤스의 분노로 인하여 영원히 발화하게 된 붉은 숲. <br> 그곳에 사는 생물들은 기존의 모습을 잃어버리고 환경에 맞춰 모습이 변화했다고 한다.</p>
+                  </div>
+               </div>
+
+               <div class="cont">
+                  <div class="video-wrap">
+                     <img src="./images/sec3/video-cover5-min.png" alt="동영상 재생">
+                     <a class="play-button" href="javascript:void(0)" data-video-id="Z3XSXeD7SEo"></a>
+                  </div>
+
+                  <div class="cont-tit">
+                     <h1 class="magma-tit5"><img src="./images/sec3/menu5-tit-on.png" alt="환영의 숲"></h1>
+                     <p>붉은숲에서 타고 나온 연기들이 모여든 환영의 숲. <br> 가득찬 연기에는 환각을 보여주는 성분이 있어 마을 주민들은 접근을 피하고 있다.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section id="sec4">
+         <div class="row-w">
+            <div class="tit">
+               <h2 data-aos="flip-up" data-aos-delay="200" data-aos-duration="800" data-aos-anchor="#sec4"><img src="./images/sec4/tit1-min.png" alt="신규펠로우"></h2>
+               <h1 data-aos="zoom-in" data-aos-delay="400" data-aos-duration="800" data-aos-anchor="#sec4"><img src="./images/sec4/tit2-min.png" alt="축복받은 신화펠로우"></h1>
+               <p data-aos="fade-left" data-aos-delay="600" data-aos-duration="800" data-aos-anchor="#sec4">마그마포라의 열기를 견딜 수 있는 축복받은 신화 등급의 펠로우를 만나보세요!</p>
+            </div>
+
+            <div class="video-wrap" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000" data-aos-anchor="#sec4">
+                  <img src="./images/sec4/video-cover-min.png" alt="동영상 재생">
+               <a class="play-button" href="javascript:void(0)" data-video-id="ZJSX5Z_VZIg" ></a>
+            </div>
+
+            <ul class="fellow" data-aos="fade-up" data-aos-delay="1200" data-aos-duration="1000" data-aos-anchor="#sec4">
+               <li>
+                  <h3>환영의 조각 레이올</h3>
+                  <p><img src="./images/sec4/fellow1-min.png" alt="환영의 조각 레이올"></p>
+                  <span onclick="fnFellowShowPop(1);">자세히 보기</span>
+               </li>
+
+               <li>
+                  <h3>멸화의 베아투스</h3>
+                  <p><img src="./images/sec4/fellow2-min.png" alt="멸화의 베아투스"></p>
+                  <span onclick="fnFellowShowPop(2);">자세히 보기</span>
+               </li>
+
+               <li>
+                  <h3>저주받은 베아투스</h3>
+                  <p><img src="./images/sec4/fellow3-min.png" alt="저주받은 베아투스"></p>
+                  <span onclick="fnFellowShowPop(3);">자세히 보기</span>
+               </li>
+
+               <li>
+                  <h3>이름 없는 말</h3>
+                  <p><img src="./images/sec4/fellow4-min.png" alt="이름 없는 말"></p>
+                  <span onclick="fnFellowShowPop(4);">자세히 보기</span>
+               </li>
+
+               <li>
+                  <h3>루브롬</h3>
+                  <p><img src="./images/sec4/fellow5-min.png" alt="루브롬"></p>
+                  <span onclick="fnFellowShowPop(5);">자세히 보기</span>
+               </li>
+
+               <li>
+                  <h3>마티롬</h3>
+                  <p><img src="./images/sec4/fellow6-min.png" alt="마티롬"></p>
+                  <span onclick="fnFellowShowPop(6);">자세히 보기</span>
+               </li>
+
+               <li>
+                  <h3>라세르타 쿰파노</h3>
+                  <p><img src="./images/sec4/fellow7-min.png" alt="라세르타 쿰파노"></p>
+                  <span onclick="fnFellowShowPop(7);">자세히 보기</span>
+               </li>
+
+               <li>
+                  <h3>이그네이브</h3>
+                  <p><img src="./images/sec4/fellow8-min.png" alt="이그네이브"></p>
+                  <span onclick="fnFellowShowPop(8);">자세히 보기</span>
+               </li>
+
+               <li>
+                  <h3>로퍼스</h3>
+                  <p><img src="./images/sec4/fellow9-min.png" alt="로퍼스"></p>
+                  <span onclick="fnFellowShowPop(9);">자세히 보기</span>
+               </li>
+
+               <li>
+                  <h3>붉은 화염의 <br> 라파에트</h3>
+                  <p><img src="./images/sec4/fellow10-min.png" alt="붉은 화염의 라파에트"></p>
+                  <span onclick="fnFellowShowPop(10);">자세히 보기</span>
+               </li>
+
+               <li>
+                  <h3>붉은 화염의 <br> 아드리옌</h3>
+                  <p><img src="./images/sec4/fellow11-min.png" alt="붉은 화염의 아드리옌"></p>
+                  <span onclick="fnFellowShowPop(11);">자세히 보기</span>
+               </li>
+
+               <li>
+                  <h3>악몽의 아라크네</h3>
+                  <p><img src="./images/sec4/fellow12-min.png" alt="악몽의 아라크네"></p>
+                  <span onclick="fnFellowShowPop(12);">자세히 보기</span>
+               </li>
+            </ul>
+         </div>
+      </section>
+   </div>
+
+<!-- 동영상 팝업 -->
+  <div class="layer-wrap" id="yt">
+      <div class="shadow"></div>
+      <div class="pop-layer">
+         <a href="javascript:void(0);" class="close-yt"></a>
+         <div class="frame">
+            <iframe width="1152" height="650" class="yt_meida_popup" id="ytURL" src=""  frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen="true" allowscriptaccess="always"></iframe>
+         </div>
+      </div>
+  </div>
+
+<!-- 펠로우 팝업 -->
+  <div class="layer-wrap2" id="pop_fellow" data-fellow="1">
+      <div class="shadow"></div>
+      <div class="cont">
+         <a href="javascript:void(0)" class="close-layer" onclick="fnClosePop();"></a>
+         <h1 class="popup-tit">환영의 조각 레이올</h1>
+         <img id="fellow_img" src="./images/sec4/fellow-img1-min.png" alt="펠로우 이미지">
+         <p>비통으로 가득찬 전설의 크로쿤의 목소리는 참혹한 전쟁의 끄트머리에서 울려퍼졌다. 오오 나의 친우 베아투스여 어찌하여 모습이 변하였나..</p>
+      </div>
+  </div>
+
+   <script>
+   AOS.init();
+   </script>
+
+</body>
+</html>
