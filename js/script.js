@@ -141,7 +141,7 @@ window.setNav = function() {
         var currentSlide = slick.slickCurrentSlide() + 1 ;
         // console.log(currentSlide);
     
-        $('#sec3').css({'background' : 'url("./images/sec3/bg'+ currentSlide + '.jpg") no-repeat center/cover'});
+        $('#sec3').css({'background' : 'url(https://file.valofe.com/Valofe_file/web/icarus/ko/event/magmaphora_2023/images/sec3/sec3-bg'+ currentSlide + '-min.png) no-repeat center/cover'});
     });
 
 // sec4 팝업창

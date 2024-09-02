@@ -783,9 +783,10 @@ section{
 }
 
 #sec3{
-   background: url("../images/sec3/bg1.jpg") no-repeat center / cover;
+   background: url("https://file.valofe.com/Valofe_file/web/icarus/ko/event/magmaphora_2023/images/sec3/sec3-bg1-min.png") no-repeat center / cover;
    transition-duration: 0.5s;
    transition-delay: 0.2s;
+   background-size: cover;
    .slick-slide img {
       margin: 0 auto;
   }
