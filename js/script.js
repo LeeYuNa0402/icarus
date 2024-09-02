@@ -116,24 +116,17 @@ window.setNav = function() {
         buttons[i].onclick = function() {
             var videoId = this.getAttribute("data-video-id");
             videoFrame.src = "https://www.youtube.com/embed/" + videoId; // 영상 ID에 따라 URL 설정
-            modal.style.display = "block"; // 팝업 열기
-            close.style.display = "block"; // 팝업 열기
+            
+            modal.classList.add("show"); // 팝업 열기
         }
     }
     // /. 동영상 열기 팝업
 
       // 닫기 버튼 클릭 시 팝업 닫기
       close.onclick = function() {
-        modal.style.display = "none";
-        videoFrame.src = ""; // 팝업 닫을 때 영상 정지
-    }
+        modal.classList.remove("show"); // 팝업 열기
 
-    // 팝업 외부 클릭 시 팝업 닫기
-    window.onclick = function(event) {
-        if (event.target == close) {
-            close.style.display = "none";
-            videoFrame.src = ""; // 팝업 닫을 때 영상 정지
-        }
+        videoFrame.src = ""; // 팝업 닫을 때 영상 정지
     }
 
    // sec4 슬라이드
@@ -146,7 +139,6 @@ window.setNav = function() {
 
 // sec4 팝업창
 const popup_fellow = document.getElementById('pop_fellow');
-const fellowShadow = document.querySelector('.layer-wrap2 .shadow');
 
 window.fnFellowShowPop = function (e) {
     const selCont = "cont" + e;
@@ -158,12 +150,10 @@ window.fnFellowShowPop = function (e) {
     document.querySelector('.layer-wrap2 p').innerText = fellowPopTexts[selCont][1];
 
     popup_fellow.classList.add('show');
-    fellowShadow.classList.add('show');
 };
 
 window.fnClosePop = function () {
     popup_fellow.classList.remove('show');
-    fellowShadow.classList.remove('show');
 }
 
 const fellowPopTexts = {
