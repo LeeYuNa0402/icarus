@@ -106,15 +106,15 @@ window.setNav = function() {
 
 
     // 팝업과 닫기 버튼 변수
-    var modal = document.getElementById("yt");
-    var close = document.getElementsByClassName("close-yt")[0];
-    var videoFrame = document.getElementById("ytURL");
+    const modal = document.getElementById("yt");
+    const close = document.getElementsByClassName("close-yt")[0];
+    const videoFrame = document.getElementById("ytURL");
 
     // 모든 버튼에 이벤트 리스너 추가
-    var buttons = document.getElementsByClassName("play-button");
-    for (var i = 0; i < buttons.length; i++) {
+    const buttons = document.getElementsByClassName("play-button");
+    for (let i = 0; i < buttons.length; i++) {
         buttons[i].onclick = function() {
-            var videoId = this.getAttribute("data-video-id");
+            const videoId = this.getAttribute("data-video-id");
             videoFrame.src = "https://www.youtube.com/embed/" + videoId; // 영상 ID에 따라 URL 설정
             
             modal.classList.add("show"); // 팝업 열기
@@ -125,7 +125,6 @@ window.setNav = function() {
       // 닫기 버튼 클릭 시 팝업 닫기
       close.onclick = function() {
         modal.classList.remove("show"); // 팝업 열기
-
         videoFrame.src = ""; // 팝업 닫을 때 영상 정지
     }
 
